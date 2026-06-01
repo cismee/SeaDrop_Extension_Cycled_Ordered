@@ -67,7 +67,7 @@ Result — every token points at the single placeholder file:
 
 ### Phase 2 — Reveal
 
-When you're ready to reveal (commonly after mint-out), call `setBaseURI` again with a base that **ends in** `/`. From that point on `tokenURI` switches to the cycling logic and each token resolves to its design file.
+When you're ready to reveal (commonly after mint end), call `setBaseURI` again with a base that **ends in** `/`. From that point on `tokenURI` switches to the cycling logic and each token resolves to its design file.
 
 ```solidity
 // owner-only, to reveal — note: trailing slash
